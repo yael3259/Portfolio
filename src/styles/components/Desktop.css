@@ -1,0 +1,137 @@
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    cursor: url("../../assets/icons/pointer.png") 0 0, default;
+    background-image: url('../../assets/backgrounds/huyoSfr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    /* גובה מדויק יותר */
+    background: #c0c0c0;
+    /* רקע אפור קלאסי */
+    border-top: 2px solid #ffffff;
+    /* קו אור עליון */
+    border-bottom: 2px solid #000000;
+    /* קו צל תחתון */
+    display: flex;
+    align-items: center;
+    padding: 0 7px;
+    z-index: 1000;
+    font-family: 'MS Sans Serif', 'Arial', sans-serif;
+    font-size: 11px;
+    user-select: none;
+}
+
+/* כפתור Start */
+.taskbar-start-button {
+    height: 30px;
+    /* גובה מתאים בתוך Taskbar */
+    padding: 0 10px;
+    /* ריווח פנימי */
+    margin-right: 4px;
+    /* רווח מימין לכפתור */
+    border: 1px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    background-color: #c0c0c0;
+    box-shadow: 1px 1px #808080;
+    /* צל פנימי קטן */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.taskbar-start-button:active {
+    border-top-color: #000000;
+    border-left-color: #000000;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    box-shadow: none;
+}
+
+.start-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+/* כפתורי חלונות פתוחים */
+.taskbar-window-button {
+    height: 30px;
+    width: 150px;
+    margin-right: 2px;
+    border: 1px solid;
+    border-top-color: #000000;
+    border-left-color: #000000;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+}
+
+.taskbar-window-button span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.taskbar-window-button .window-icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 4px;
+}
+
+.close-x {
+    cursor: pointer;
+}
+
+.taskbar-time-area {
+    height: 85%;
+    margin: 0 13px 0 auto;
+    padding: 0 7px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+    border-left: 2px solid #808080;
+    border-top: 2px solid #808080;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background-color: #ababab;
+}
+
+.sound_icon {
+    height: 20px;
+    width: auto;
+}
+
+.taskbar-time-area .time-text {
+    font-family: 'MS Sans Serif', Tahoma, sans-serif;
+    padding-right: 2px;
+}

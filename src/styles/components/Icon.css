@@ -1,0 +1,26 @@
+.icon {
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  cursor: default;
+  color: white;
+  font-size: 12px;
+  user-select: none;
+  cursor: url('../../assets/icons/pointer.png'), auto;
+}
+
+.icon:focus .icon-label {
+  outline: 1px dotted #ffffff;
+  outline-offset: 2px;
+}
+
+.icon img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.icon-label {
+  line-height: 1.2;
+}

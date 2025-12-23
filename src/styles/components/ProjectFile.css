@@ -1,0 +1,142 @@
+.project-window {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    background-color: #afafaf;
+    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    user-select: text;
+    z-index: 500;
+}
+
+.project-window .title-bar {
+    height: 26px;
+    background-color: #000080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.project-window .title-bar button {
+    width: 20px;
+    height: 18px;
+    border: 1px solid;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #000;
+    border-bottom-color: #000;
+    background-color: #c0c0c0;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+}
+
+.project-window .title-bar button:active {
+    border-top-color: #000;
+    border-left-color: #000;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    padding: 1px 0 0 1px;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000080;
+    margin: 8px 0;
+}
+
+.project-window .content {
+    flex: 1;
+    background-color: #fff;
+    padding: 8px;
+    overflow: auto;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: #000;
+    box-sizing: border-box;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.project-window .content.project-content {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+}
+
+.project-window .content.project-content::-webkit-scrollbar {
+    width: 16px;
+}
+
+.project-window .content.project-content::-webkit-scrollbar-track {
+    background: #c0c0c0;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.project-window .content.project-content::-webkit-scrollbar-thumb {
+    background-color: #888888;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.project-window .content.project-content::-webkit-scrollbar-corner {
+    background: #c0c0c0;
+}
+
+.project-window .project-img {
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.project-window ul {
+    padding-left: 20px;
+    margin: 8px;
+}
+
+.single-tech {
+    padding-bottom: 5px;
+}
+
+.project-links {
+    margin-top: 8px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.link-logo {
+    width: 25px;
+    height: auto;
+}
+
+.project-window .project-links a {
+    padding-right: 20px;
+}

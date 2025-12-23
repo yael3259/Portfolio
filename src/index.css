@@ -1,13 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Courier New", monospace;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Courier New", monospace;
 }
+
+/* @font-face {
+  font-family: "W95FA";
+  src: url("../assets/fonts/W95FA-Regular.woff2") format("woff2"),
+       url("../assets/fonts/W95FA-Regular.woff") format("woff"),
+       url("../assets/fonts/W95FA-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
