@@ -51,7 +51,7 @@ export const Desktop = () => {
   const objectsCountByType = {
     "Projects": 3,
     "Games": 2,
-    "Contact": 3,
+    "Contact": 6,
     "Recycle Bin": 2,
     "My Stack": 11
   };

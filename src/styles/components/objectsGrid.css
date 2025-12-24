@@ -1,6 +1,7 @@
 .stack-grid,
 .projects-grid,
-.games-grid {
+.games-grid,
+.contact-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,6 +10,7 @@
 
 .stack-grid .icon-label,
 .projects-grid .icon-label,
-.games-grid .icon-label {
+.games-grid .icon-label,
+.contact-grid .icon-label {
     color: rgb(0, 0, 0);
 }

@@ -1,5 +1,5 @@
 import "../styles/components/ProjectFile.css";
-import youtube from "../assets/icons/youtube.jpg";
+import youtube from "../assets/icons/youtube.png";
 import google from "../assets/icons/google.png"
 import github from "../assets/icons/github.png"
 
@@ -34,7 +34,7 @@ export const ProjectFile = ({ project, onClose }) => {
                 <div className="project-links">
                     {codeLink && (
                         <div className="link-container">
-                            <img src={github} className="link-logo" alt="githubLogo"/>
+                            <img src={github} className="link-logo" alt="githubLogo" />
                             <a href={codeLink} target="_blank" rel="noopener noreferrer">
                                 Code in GitHub
                             </a>
@@ -43,7 +43,7 @@ export const ProjectFile = ({ project, onClose }) => {
                     <br />
                     {videoLink && (
                         <div className="link-container">
-                            <img src={youtube} className="link-logo" alt="youtubeLogo"/>
+                            <img src={youtube} className="link-logo" alt="youtubeLogo" />
                             <a href={videoLink} target="_blank" rel="noopener noreferrer">
                                 YouTube Demo
                             </a>
