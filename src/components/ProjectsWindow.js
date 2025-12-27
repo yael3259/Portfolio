@@ -1,5 +1,4 @@
 import "../styles/components/objectsGrid.css";
-import "../styles/components/ProjectsWindow.css";
 import vertix from "../assets/icons/vertixIcon.png";
 import fitnet from "../assets/icons/fitnetIcon.png";
 import fitnetImg from "../assets/images/fitnet.jpeg"

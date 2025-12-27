@@ -12,7 +12,8 @@
     border-right-color: #000000;
     border-bottom-color: #000000;
     background-color: #afafaf;
-    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     font-size: 12px;
     padding: 2px;
     user-select: text;
@@ -22,6 +23,8 @@
 .project-window .title-bar {
     height: 26px;
     background-color: #000080;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -69,7 +72,8 @@
     background-color: #fff;
     padding: 8px;
     overflow: auto;
-    font-family: "Courier New", monospace;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     font-size: 14px;
     color: #000;
     box-sizing: border-box;

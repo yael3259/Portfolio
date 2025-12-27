@@ -11,7 +11,8 @@
     align-content: flex-start;
     padding: 20px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     position: relative;
     overflow: hidden;
 }
@@ -22,13 +23,9 @@
     left: 0;
     width: 100%;
     height: 40px;
-    /* גובה מדויק יותר */
     background: #c0c0c0;
-    /* רקע אפור קלאסי */
     border-top: 2px solid #ffffff;
-    /* קו אור עליון */
     border-bottom: 2px solid #000000;
-    /* קו צל תחתון */
     display: flex;
     align-items: center;
     padding: 0 7px;
@@ -38,14 +35,10 @@
     user-select: none;
 }
 
-/* כפתור Start */
 .taskbar-start-button {
     height: 30px;
-    /* גובה מתאים בתוך Taskbar */
     padding: 0 10px;
-    /* ריווח פנימי */
     margin-right: 4px;
-    /* רווח מימין לכפתור */
     border: 1px solid;
     border-top-color: #ffffff;
     border-left-color: #ffffff;
@@ -53,12 +46,12 @@
     border-bottom-color: #000000;
     background-color: #c0c0c0;
     box-shadow: 1px 1px #808080;
-    /* צל פנימי קטן */
     display: flex;
     align-items: center;
     font-weight: bold;
     color: black;
-    cursor: pointer;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .taskbar-start-button:active {
@@ -75,7 +68,6 @@
     margin-right: 4px;
 }
 
-/* כפתורי חלונות פתוחים */
 .taskbar-window-button {
     height: 30px;
     width: 150px;
@@ -97,6 +89,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .taskbar-window-button .window-icon {
@@ -132,6 +126,13 @@
 }
 
 .taskbar-time-area .time-text {
-    font-family: 'MS Sans Serif', Tahoma, sans-serif;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     padding-right: 2px;
+}
+
+@media (max-width: 450px) {
+    .taskbar-time-area {
+        gap: 0;
+    }
 }

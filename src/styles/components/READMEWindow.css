@@ -1,7 +1,8 @@
 .readme-window {
   position: absolute;
-  top: 20%;
-  left: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 420px;
   height: 300px;
   display: flex;
@@ -23,6 +24,8 @@
   height: 26px;
   background-color: #000080;
   color: white;
+  font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+  letter-spacing: 0.5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,8 +65,7 @@
   background-color: #f3f3f3;
   padding: 8px;
   overflow: auto;
-  font-family: "Courier New", monospace;
-  font-size: 15px;
+  font-size: 17px;
   color: #000000;
   box-sizing: border-box;
   text-align: start;
@@ -71,7 +73,8 @@
 
 .readme-window .content pre {
   margin: 0;
-  font-family: "Courier New", monospace;
+  font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+  letter-spacing: 0.5px;
   white-space: pre-wrap;
   word-break: break-word;
 }
@@ -98,4 +101,11 @@
 
 .readme-window .content::-webkit-scrollbar-corner {
   background: #c0c0c0;
+}
+
+@media (max-width: 450px) {
+  .readme-window {
+    width: 300px;
+    height: 300px;
+  }
 }

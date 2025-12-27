@@ -12,14 +12,14 @@
     border-right-color: #000000;
     border-bottom-color: #000000;
     background-color: #afafaf;
-    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+    letter-spacing: 0.5px;
     font-size: 12px;
     padding: 2px;
     user-select: text;
     z-index: 500;
 }
 
-/* כותרת */
 .folder-window .title-bar {
     height: 26px;
     background-color: #000080;
@@ -35,7 +35,6 @@
     border-left: 2px solid #000080;
 }
 
-/* כפתור סגירה */
 .folder-window .title-bar button {
     width: 20px;
     height: 18px;
@@ -52,6 +51,8 @@
     justify-content: center;
     padding: 0;
     line-height: 1;
+
+    
 }
 
 .folder-window .title-bar button:active {
@@ -117,4 +118,24 @@
     border-left: 2px solid #696969;
     border-bottom: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
+}
+
+@media (max-width: 750px) {
+    .folder-window {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 430px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 450px) {
+    .folder-window {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 370px;
+    }
 }

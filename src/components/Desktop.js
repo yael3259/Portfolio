@@ -52,7 +52,7 @@ export const Desktop = () => {
     "Projects": 3,
     "Games": 2,
     "Contact": 6,
-    "Recycle Bin": 2,
+    "Recycle Bin": 4,
     "My Stack": 11
   };
 
@@ -125,8 +125,9 @@ export const Desktop = () => {
           <img src={sound_Icon} className="sound_icon" alt="sound" />
           <span className="time-text">
             {currentTime.toLocaleTimeString("en-US", {
-              hour: "numeric",
-              minute: "2-digit"
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: false,
             })}
           </span>
         </div>

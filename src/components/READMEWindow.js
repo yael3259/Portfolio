@@ -15,19 +15,25 @@ export const READMEWindow = ({ onClose }) => {
 
 
 Full-Stack Developer
--------------------
-• React / JS / CSS
-• Node.js / Express
-• MongoDB
-• REST APIs
+-----------------
+• React / JS / CSS / Dart / Flutter
+• Node.js / Express / REST APIs / JWT / Python
+• MongoDB / SQL
+• Git, AWS (EC2) / Vercel / Render / Postman
 
 
 What is this?
--------------
-This portfolio mimics an old Windows desktop.
-Double-click icons.
-Open folders.
+----------
+This portfolio emulates an old Windows desktop.
+Double-click icons, open folders, links to projects & games I've built and more.
 Yes, this is intentional 🙂
+
+
+Some Tips:
+--------
+• Double click = explore
+• F11 = full screen mode
+• Ctrl+Alt+Del = just kidding, pls don’t do that 😅
 
 
 Why me?

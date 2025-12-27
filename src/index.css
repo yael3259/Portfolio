@@ -1,17 +1,22 @@
 body {
   margin: 0;
-  font-family: "Courier New", monospace;
+  font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
 }
 
 code {
   font-family: "Courier New", monospace;
 }
 
-/* @font-face {
-  font-family: "W95FA";
-  src: url("../assets/fonts/W95FA-Regular.woff2") format("woff2"),
-       url("../assets/fonts/W95FA-Regular.woff") format("woff"),
-       url("../assets/fonts/W95FA-Regular.otf") format("opentype");
+@font-face {
+  font-family: "W95";
+  src: url("./assets/fonts/w95font/W95font.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
-} */
+}
+
+@font-face {
+  font-family: "W95";
+  src: url("./assets/fonts/w95font/W95font-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}

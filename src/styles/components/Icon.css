@@ -4,9 +4,11 @@
   text-align: center;
   cursor: default;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   user-select: none;
   cursor: url('../../assets/icons/pointer.png'), auto;
+  font-family: "W95", "MS Sans Serif", Tahoma, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .icon:focus .icon-label {
