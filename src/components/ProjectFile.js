@@ -5,7 +5,7 @@ import github from "../assets/icons/github.png"
 
 
 export const ProjectFile = ({ project, onClose }) => {
-    const { name, title, img, description, stackList, codeLink, videoLink, liveLink } = project;
+    const { name, title, date, img, description, stackList, codeLink, videoLink, liveLink } = project;
 
     return (
         <div className="window project-window">
@@ -18,10 +18,12 @@ export const ProjectFile = ({ project, onClose }) => {
                 {img && <img src={img} alt={name} className="project-img" />}
 
                 <div className="project-title">
-                    {name} - {title}
+                    {name} - {title} | <span className="project-date">{date}</span>
                 </div>
 
-                {description && <p>{description}</p>}
+                {description &&
+                    <p>{description}</p>
+                }
 
                 {stackList && stackList.length > 0 && (
                     <ul>

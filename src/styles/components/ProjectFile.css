@@ -67,6 +67,11 @@
     margin: 8px 0;
 }
 
+.project-date {
+    font-weight: 100;
+    color: #000000;
+}
+
 .project-window .content {
     flex: 1;
     background-color: #fff;

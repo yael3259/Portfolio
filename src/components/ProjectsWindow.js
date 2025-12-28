@@ -14,6 +14,7 @@ export const ProjectsWindow = () => {
     {
       name: "Vertix",
       title: "Social Youth Platform",
+      date: "Mar - Sep 2025",
       icon: vertix,
       img: vertixImg,
       codeLink: "https://github.com/yael3259",
@@ -24,6 +25,7 @@ export const ProjectsWindow = () => {
     {
       name: "FitNet",
       title: "Online Fitness Store",
+      date: "Aug 2024 - Feb 2025",
       icon: fitnet,
       img: fitnetImg,
       codeLink: "https://github.com/yael3259",
