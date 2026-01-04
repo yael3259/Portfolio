@@ -19,6 +19,7 @@ export const ProjectsWindow = () => {
       img: vertixImg,
       codeLink: "https://github.com/yael3259",
       videoLink: "https://www.youtube.com/watch?v=-vJlisNq_Fs&t=11s",
+      liveLink: "https://vertix-dev.vercel.app/",
       description: "Developed a youth goal-tracking platform with automated daily updates (Cron Job), resolving scheduling issues through rigorous testing and optimization. Implemented client-side real-time notifications (React Context/ useEffect) to reduce server load and speed the UI. scaled an MVP into upgraded app. Key features: Post feed, notifications, user profiles, friend tracking, supportive community and more.",
       stackList: ["React", "CSS", "Node.js", "Express", "Cron Job", "JWT", "Python/Flask", "MongoDB"]
     },
